@@ -869,14 +869,6 @@ Data Transformation & Analysis
 
 ---
 
-# 👤 Author
-
-**Data Transformer — SQL Project**
-
-Developed as an academic SQL project for practical database and data analysis learning.
-
----
-
 # 📄 Project Deliverables
 
 The final project should contain:
