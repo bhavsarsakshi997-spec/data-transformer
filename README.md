@@ -19,6 +19,8 @@ The project focuses on practical SQL operations such as **JOINs, Subqueries, Dat
 The main goal is not only to retrieve data, but to transform raw database records into meaningful information that can be used for reporting and analysis.
 
 ---
+<img width="1536" height="1024" alt="ChatGPT Image Sep 21, 2026, 11_47_23 AM" src="https://github.com/user-attachments/assets/5337ef84-f631-4246-a884-d63d1e0b8109" />
+
 
 # 🎯 Project Objective
 
@@ -58,6 +60,9 @@ Employee information including department, hiring date, and salary.
 These tables allow the project to demonstrate different types of SQL analysis in a realistic business environment.
 
 ---
+
+<img width="1536" height="1024" alt="21d1be69-7961-4dbf-9010-03ee034a8c77" src="https://github.com/user-attachments/assets/b3e4763c-f80c-45c4-8239-9ccc0928cbec" />
+
 
 # ✨ Key Features
 
@@ -103,40 +108,7 @@ These tables allow the project to demonstrate different types of SQL analysis in
 The project contains three main tables:
 
 ```text
-                 ┌──────────────────────┐
-                 │      CUSTOMERS       │
-                 ├──────────────────────┤
-                 │ PK CustomerID        │
-                 │    FirstName         │
-                 │    LastName          │
-                 │    Email             │
-                 │    RegistrationDate   │
-                 └──────────┬───────────┘
-                            │
-                            │ 1 : Many
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │       ORDERS         │
-                 ├──────────────────────┤
-                 │ PK OrderID          │
-                 │ FK CustomerID       │
-                 │    OrderDate         │
-                 │    TotalAmount       │
-                 └──────────────────────┘
-
-
-                 ┌──────────────────────┐
-                 │      EMPLOYEES       │
-                 ├──────────────────────┤
-                 │ PK EmployeeID       │
-                 │    FirstName         │
-                 │    LastName          │
-                 │    Department        │
-                 │    HireDate          │
-                 │    Salary            │
-                 └──────────────────────┘
-```
+<img width="1024" height="1536" alt="ChatGPT Image Sep 21, 2026, 11_13_13 AM" src="https://github.com/user-attachments/assets/4e7ad01b-658c-4006-bb99-37e2c314cbd6" />
 
 ---
 
@@ -666,32 +638,41 @@ This prevents JOIN errors caused by incompatible data types.
 
 # 📁 Recommended GitHub Structure
 
+
 ```text
-Data-Transformer/
-│
-├── data_transformer.sql
-│
-├── README.md
-│
-└── screenshots/
-    │
-    ├── q1_inner_join.png
-    ├── q2_left_join.png
-    ├── q3_right_join.png
-    ├── q4_full_outer_join.png
-    ├── q5_average_order.png
-    ├── q6_average_salary.png
-    ├── q7_date_extract.png
-    ├── q8_date_difference.png
-    ├── q9_date_format.png
-    ├── q10_concat.png
-    ├── q11_replace.png
-    ├── q12_case_conversion.png
-    ├── q13_trim.png
-    ├── q14_running_total.png
-    ├── q15_rank.png
-    ├── q16_discount.png
-    └── q17_salary_category.png
+(1) <img width="1376" height="315" alt="image" src="https://github.com/user-attachments/assets/aaddddbd-1448-4dc1-b61d-727121d57588" />
+
+(2) <img width="1207" height="341" alt="image" src="https://github.com/user-attachments/assets/e7b28aaf-f9ab-4020-acdf-0741d24ab78f" />
+
+(3) <img width="1221" height="320" alt="image" src="https://github.com/user-attachments/assets/4695946a-823d-48a7-ab1c-9446fc2df351" />
+
+(4) <img width="995" height="347" alt="image" src="https://github.com/user-attachments/assets/d5ed2995-aec1-4627-b205-7c3ecba48478" />
+
+(5) <img width="865" height="170" alt="image" src="https://github.com/user-attachments/assets/d0e0243c-99d1-4ba3-b4ea-3710f998c2c8" />
+
+(6) <img width="572" height="317" alt="image" src="https://github.com/user-attachments/assets/1c15c0f4-41a1-46d7-b588-b3e1288330c2" />
+
+(7) <img width="622" height="317" alt="image" src="https://github.com/user-attachments/assets/9dd839e0-5e5d-4106-b54d-f7f24671191c" />
+
+(8) <img width="510" height="316" alt="image" src="https://github.com/user-attachments/assets/56586b2b-83a2-4190-a0d2-723a7a866cfe" />
+
+(9) <img width="765" height="282" alt="image" src="https://github.com/user-attachments/assets/38b63c1b-644c-4c2f-8c73-bd72201d14ac" />
+
+(10) <img width="812" height="291" alt="image" src="https://github.com/user-attachments/assets/5d5fdfb9-e5c3-4760-a66e-0a1e0240caef" />
+
+(11) <img width="520" height="277" alt="image" src="https://github.com/user-attachments/assets/d79311f0-cb19-45ca-9e38-bfc727250e8c" />
+
+(12) <img width="435" height="285" alt="image" src="https://github.com/user-attachments/assets/1a4b474e-2e40-40e1-af28-d7e2697a9f40" />
+
+(13) <img width="612" height="316" alt="image" src="https://github.com/user-attachments/assets/96c74fc1-34ca-4229-b476-37bb2d952883" />
+
+(14) <img width="592" height="311" alt="image" src="https://github.com/user-attachments/assets/508ce9fc-ab70-4b79-9be2-e73c0f8b4c29" />
+
+(15) <img width="535" height="320" alt="image" src="https://github.com/user-attachments/assets/ae93336e-79da-42c6-9884-4931a6aaef44" />
+
+(16) <img width="937" height="282" alt="image" src="https://github.com/user-attachments/assets/bb870f6f-5c21-4790-80ad-8326bc2a4d61" />
+
+
 ```
 
 ---
