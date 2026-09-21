@@ -493,6 +493,7 @@ Susan Lee → 55000.00
 (15) <img width="535" height="320" alt="image" src="https://github.com/user-attachments/assets/ae93336e-79da-42c6-9884-4931a6aaef44" />
 
 (16) <img width="937" height="282" alt="image" src="https://github.com/user-attachments/assets/bb870f6f-5c21-4790-80ad-8326bc2a4d61" />
+
 # 📈 Data Transformation Flow
 
 ```text
@@ -665,47 +666,6 @@ Orders.CustomerID    → INT
 ```
 
 This prevents JOIN errors caused by incompatible data types.
-
----
-
-# 📁 Recommended GitHub Structure
-
-
-```text
-(1) <img width="1376" height="315" alt="image" src="https://github.com/user-attachments/assets/aaddddbd-1448-4dc1-b61d-727121d57588" />
-
-(2) <img width="1207" height="341" alt="image" src="https://github.com/user-attachments/assets/e7b28aaf-f9ab-4020-acdf-0741d24ab78f" />
-
-(3) <img width="1221" height="320" alt="image" src="https://github.com/user-attachments/assets/4695946a-823d-48a7-ab1c-9446fc2df351" />
-
-(4) <img width="995" height="347" alt="image" src="https://github.com/user-attachments/assets/d5ed2995-aec1-4627-b205-7c3ecba48478" />
-
-(5) <img width="865" height="170" alt="image" src="https://github.com/user-attachments/assets/d0e0243c-99d1-4ba3-b4ea-3710f998c2c8" />
-
-(6) <img width="572" height="317" alt="image" src="https://github.com/user-attachments/assets/1c15c0f4-41a1-46d7-b588-b3e1288330c2" />
-
-(7) <img width="622" height="317" alt="image" src="https://github.com/user-attachments/assets/9dd839e0-5e5d-4106-b54d-f7f24671191c" />
-
-(8) <img width="510" height="316" alt="image" src="https://github.com/user-attachments/assets/56586b2b-83a2-4190-a0d2-723a7a866cfe" />
-
-(9) <img width="765" height="282" alt="image" src="https://github.com/user-attachments/assets/38b63c1b-644c-4c2f-8c73-bd72201d14ac" />
-
-(10) <img width="812" height="291" alt="image" src="https://github.com/user-attachments/assets/5d5fdfb9-e5c3-4760-a66e-0a1e0240caef" />
-
-(11) <img width="520" height="277" alt="image" src="https://github.com/user-attachments/assets/d79311f0-cb19-45ca-9e38-bfc727250e8c" />
-
-(12) <img width="435" height="285" alt="image" src="https://github.com/user-attachments/assets/1a4b474e-2e40-40e1-af28-d7e2697a9f40" />
-
-(13) <img width="612" height="316" alt="image" src="https://github.com/user-attachments/assets/96c74fc1-34ca-4229-b476-37bb2d952883" />
-
-(14) <img width="592" height="311" alt="image" src="https://github.com/user-attachments/assets/508ce9fc-ab70-4b79-9be2-e73c0f8b4c29" />
-
-(15) <img width="535" height="320" alt="image" src="https://github.com/user-attachments/assets/ae93336e-79da-42c6-9884-4931a6aaef44" />
-
-(16) <img width="937" height="282" alt="image" src="https://github.com/user-attachments/assets/bb870f6f-5c21-4790-80ad-8326bc2a4d61" />
-
-
-```
 
 ---
 
